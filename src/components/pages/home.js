@@ -8,7 +8,11 @@ class Home extends Component {
 
         return (
             <div id="home">
-                <Slider title="Martin Navarro" btnString={btnString} />
+                <Slider
+                    title="Proyecto final de curso de React JS por Martin Navarro"
+                    btnString={btnString}
+                    size="slider-big"
+                />
                 <div className="center">
                     <div id="content">
                         <h1>Inicio</h1>
