@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './assets/css/App.css';
+
+// Componentes
+import Header from './components/header';
+import Slider from './components/slider';
+import Sidebar from './components/sidebar';
+import Footer from './components/footer';
+import Router from './components/router';
 
 function App() {
+  let btnString = "Ir al blog";
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+
+      <Slider title="Martin Navarro" btnString={btnString}/>
+
+      <div className="center">
+        <Router />
+
+        <Sidebar />
+
+        <div className="clearfix"></div>
+      </div>
+      
+      <Footer />
+
     </div>
   );
 }
