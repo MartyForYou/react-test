@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Slider from '../slider';
 import Sidebar from '../sidebar';
 
 class Form extends Component {
