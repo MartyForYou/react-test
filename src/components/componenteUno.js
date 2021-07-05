@@ -30,7 +30,7 @@ class ComponenteUno extends React.Component {
                     }
                 </ol>
                 <hr/>
-                <h1>Desde una prop: {saludo}, suena interesante</h1>
+                <h1>Desde una prop: {saludo}</h1>
             </React.Fragment>
         );
     }
