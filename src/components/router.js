@@ -17,7 +17,7 @@ class Router extends Component {
                     <Route exact path="/prueba" component={SeccionPruebas} />
                     <Route exact path="/prueba2" render={() => (
                         <div id="content">
-                            <h1>Hola universo</h1>
+                            <h1>Hola Universo!!!</h1>
                             <ComponenteUno saludo="Buenaaas" />
                         </div>
                     )} />
