@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/home';
 import Blog from './pages/blog';
 import Form from './pages/form';
-import Pagina1 from './pages/pagina1';
+import Peliculas from './pages/peliculas';
 import Pagina2 from './pages/pagina2';
 import Header from './header';
 import Footer from './footer';
@@ -22,7 +22,7 @@ class Router extends Component {
                         <Route exact path="/home" component={Home} />
                         <Route exact path="/blog" component={Blog} />
                         <Route exact path="/form" component={Form} />
-                        <Route exact path="/pagina1" component={Pagina1} />
+                        <Route exact path="/peliculas" component={Peliculas} />
                         <Route exact path="/pagina2" component={Pagina2} />
 
                         {/* Error */}

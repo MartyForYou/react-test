@@ -28,7 +28,7 @@ class Header extends Component {
                                 <NavLink to="/form" activeClassName="active">Formulario</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/pagina1" activeClassName="active">Pagina 1</NavLink>
+                                <NavLink to="/peliculas" activeClassName="active">Peliculas</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/pagina2" activeClassName="active">Pagina 2</NavLink>

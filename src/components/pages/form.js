@@ -5,9 +5,13 @@ class Form extends Component {
     render() {
         return (
             <div id="form">
+                <Slider
+                    title="Formulario"
+                    size="slider-small"
+                />
                 <div className="center">
                     <div id="content">
-                        <h1>Formulario</h1>
+                        Complete sus datos aqui
                     </div>
                     <Sidebar />
                     <div className="clearfix"></div>
