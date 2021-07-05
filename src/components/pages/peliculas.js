@@ -38,6 +38,7 @@ class Peliculas extends Component {
                 />
                 <div className="center">
                     <div id="content" className="peliculas">
+                        <h2 className="subHeader">Listado de peliculas</h2>
                         <p>Seleccion de las peliculas favoritas de {this.state.nombre}</p>
                         <p><input type="button" value="Cambiar titulo" onClick={this.cambiarTitulo} /></p>
                         {this.state.favorita.titulo ? (
