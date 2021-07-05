@@ -6,7 +6,9 @@ class Blog extends Component {
         return (
             <div id="blog">
                 <div className="center">
-                    <h1>Blog</h1>
+                    <div id="content">
+                        <h1>Blog</h1>
+                    </div>
                     <Sidebar />
                     <div className="clearfix"></div>
                 </div>

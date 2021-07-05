@@ -6,7 +6,9 @@ class Form extends Component {
         return (
             <div id="form">
                 <div className="center">
-                    <h1>Formulario</h1>
+                    <div id="content">
+                        <h1>Formulario</h1>
+                    </div>
                     <Sidebar />
                     <div className="clearfix"></div>
                 </div>

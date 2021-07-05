@@ -10,7 +10,9 @@ class Home extends Component {
             <div id="home">
                 <Slider title="Martin Navarro" btnString={btnString} />
                 <div className="center">
-                    <h1>Inicio</h1>
+                    <div id="content">
+                        <h1>Inicio</h1>
+                    </div>
                     <Sidebar />
                     <div className="clearfix"></div>
                 </div>

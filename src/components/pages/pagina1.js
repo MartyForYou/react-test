@@ -6,7 +6,9 @@ class Pagina1 extends Component {
         return (
             <div id="pagina1">
                 <div className="center">
-                    <h1>Pagina 1</h1>
+                    <div id="content">
+                        <h1>Pagina 1</h1>
+                    </div>
                     <Sidebar />
                     <div className="clearfix"></div>
                 </div>
