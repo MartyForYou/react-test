@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
+import Slider from '../slider';
 import Sidebar from '../sidebar';
 
-class Pagina2 extends Component {
+class Home extends Component {
     render() {
+        let btnString = "Ir al blog";
+
         return (
-            <div id="pagina2">
+            <div id="home">
+                <Slider title="Martin Navarro" btnString={btnString} />
                 <div className="center">
-                    <h1>Pagina2</h1>
+                    <h1>Inicio</h1>
                     <Sidebar />
                     <div className="clearfix"></div>
                 </div>
@@ -15,4 +19,4 @@ class Pagina2 extends Component {
     }
 }
 
-export default Pagina2;
+export default Home;
