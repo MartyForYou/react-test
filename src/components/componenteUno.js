@@ -26,7 +26,7 @@ class ComponenteUno extends React.Component {
                             return (
                                 <li key={i}>{ingrediente}</li>
                             );
-                        })
+                        }) 
                     }
                 </ol>
                 <hr/>

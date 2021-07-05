@@ -409,6 +409,10 @@ textarea{
       margin-right: 7px;
   }
 
+  .active {
+    border-bottom: 2px solid #3cb2d3;
+  }
+
   #slider{
       height: 180px;
   }
