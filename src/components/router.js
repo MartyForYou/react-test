@@ -27,6 +27,9 @@ class Router extends Component {
                     <Switch>
                         <Route exact path="/" component={Peliculas} />
                         <Route exact path="/home" component={Peliculas} />
+                        <Route exact path="/home" component={Peliculas} />
+                        <Route exact path="/home" component={Peliculas} />
+                        
                         <Route exact path="/prueba" component={SeccionPruebas} />
                         <Route exact path="/prueba2" render={() => (
                             <div id="content">
